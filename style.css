@@ -1,0 +1,116 @@
+body{
+    background-image: url(./cc.png);
+    /* background-size: cover; */
+/* background-color: rgba(150 , 118 , 71 , 0.68); */
+/* background: antiquewhite; */
+/* background-color: darkgrey; */
+}
+.bnr input{
+    font-size: 200px;
+    color: #408224;
+    font-weight: 600;
+width: 100%;
+height: 43%;
+margin-bottom: 20px;
+text-align: center;
+border: none;
+pointer-events: none;
+background-image: url(./cc.png);
+/* background-color: grey; */
+
+
+/* margin-top:20px ; */
+}
+.bnr input:hover{
+    outline: none;
+}
+.bnr{
+    text-align: center;
+    border: 3px solid #ebebeb;
+    /* margin-top: 70px; */
+    margin: 70px auto;
+    width: 45%;
+    /* padding-bottom: 10px; */
+    height: 465px;
+box-shadow: 0px 10px 30px 10px black;
+/* background-color: grey; */
+
+background-image: url(./cc.png);
+}
+.bnr h3{
+font-size: 40px;
+color: white;
+margin-top: 15px;
+text-shadow:
+ /* 3px 0 1px #182a4d, */
+ /* 0 3px 1px #408224, */
+ 5px 5px  7px white
+;
+/* background-image: url(./counter-javascript-project.png); */
+/* background-color: grey; */
+
+}
+.bnr button{
+    font-size: 20px;
+    /* font-family: sans-serif; */
+    color: #ebebeb;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: #182a4d; */
+    background-color: #254873;
+border: none;
+font-weight: bolder;
+box-shadow: 3px 6px 2px 2px black;
+border-radius: 90px;
+display: inline-block;
+/* margin-top: -15px; */
+/* text-shadow: 10px 10px 10px 2px white; */
+text-align: center;
+}
+.bnr button:hover{
+    outline: 0;
+}
+.bnr button:focus{
+    outline: 0;
+}
+
+
+#cut , #add , #subtract{
+    width:80px;
+    height: 80px;
+    /* transition: 0.5s; */
+}
+#cut:hover , #add:hover , #subtract:hover{
+/* transform: scale(1.1); */
+width: 74px;
+height: 74px;
+box-shadow: 3px 6px 2px 2px black;
+background-color: #182a4d;
+font-size: 18px;
+}
+
+
+@media (max-width:1000px){
+    .bnr input{
+        font-size: 145px;
+    }
+}
+@media (max-width:944px){
+    .bnr input{
+        height: 43%;
+    }
+}
+@media (max-width:767px){
+    .bnr input{
+height: 45%;
+font-size: 160px;
+    }
+}
+@media (max-width:633px){
+    .bnr input{
+        height: 38%;
+
+    }
+}
